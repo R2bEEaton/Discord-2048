@@ -10,7 +10,7 @@ A discord bot made in python for the game 2048 for Discord's Hack Week 2019.
 **Bot info:**
 Python 3.6 or higher
 
-Add a bot token in *bot_config.json* and choose either `true` or `false` for *"smoother"* which will determine if an await is added as a delay before adding in the random tile after each successful move (which, if true, makes it appear a bit smoother). Sometimes though, when it is `true`, your discord client may not see the new tile right away and you may need to switch channels to see it. On the test server, it is `true` just because I think it looks better, but keep this in mind.
+Add a bot token in *bot_config.json* and choose either `true` or `false` for *"smoother"* which will determine if an await is added as a delay before adding in the random tile after each successful move (which, if true, makes it appear a bit smoother). Sometimes though, when it is `true`, your discord client may not see the new tile right away and you may need to switch channels to see it. On the test server, it is `false` to prevent this, but it does look a lot better with the small delay.
 
 To use, type '!start' in a channel the bot has access to and it will start a game for you. You can control the direction you move by using the arrow reactions below the message. React a :regional_indicator_x: to end the game and remove the game board prematurely (only accessible by the user that started the game). Once the game ends in a win or loss, anyone can react a :regional_indicator_x: to remove the game board.
 
