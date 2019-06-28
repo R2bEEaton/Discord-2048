@@ -1,7 +1,7 @@
 # Discord-2048
 A discord bot made in python for the game 2048 for Discord's Hack Week 2019.
 
-**To test the bot, please join https://discord.gg/ADn4bx9**
+**To test the bot, please join https://discord.gg/C7mgt52**
 
 
 **Game info:**
