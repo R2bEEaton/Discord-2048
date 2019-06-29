@@ -7,6 +7,8 @@ A discord bot made in python for the game 2048 for Discord's Hack Week 2019.
 **Game info:**
 2048 is a game in which you must slide around tiles labeled with powers of 2 in four directions. When two tiles of the same value combine, they get added together, creating a new tile with double the value. After each successful move, a random tile either 2 or 4 is generated. The goal, as one might guess, is to reach a tile with a value of 2048. If at any point the user is unable to slide any tiles (the board is full and there are no adjacent combinations to be made) the game is over.
 
+*An online version (not made by me) can be found here: https://2048.app/*
+
 **Bot info:**
 Python 3.6 or higher
 
